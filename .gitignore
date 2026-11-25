@@ -1,0 +1,31 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Dados gerados pelos apps (podem conter documentos reais)
+.cache/
+logs/
+output/
+uploads/
+**/agente_analise_contratos_assets/uploads/
+**/agente_analise_contratos_ingestao_documentos/
+*.db
+*.sqlite
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
